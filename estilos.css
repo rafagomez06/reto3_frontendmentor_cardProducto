@@ -112,7 +112,7 @@ body{
     .cardPrincipal{   
         display: flex;        
         width: 610px;
-        height: 382px;
+        height: 345px;
         margin: 70px auto;
         overflow: hidden;
         border-radius: 15px;
@@ -121,9 +121,9 @@ body{
     }
     
     .imgContainer img{       
-        width: 300px;
-        height: 382px;
-        background-size: cover;  
+        width: 100%;
+        background-size: cover; 
+        content: url(./images/image-product-desktop.jpg); 
        
     }
     .info{
